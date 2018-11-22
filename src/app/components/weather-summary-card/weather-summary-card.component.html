@@ -1,0 +1,7 @@
+<p>
+  {{title}}
+</p>
+
+<div *ngFor='let city of cities'>
+    <app-weather-card [city]='city'></app-weather-card>
+</div>

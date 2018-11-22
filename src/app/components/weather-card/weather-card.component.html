@@ -1,0 +1,27 @@
+<div class="card">
+  <a routerLink="/detailed/{{city}}">
+    <div class="container">
+      <p>
+        Weather In {{city}}
+      </p>
+      <p>
+        <i class={{cityWeatherIcon}} style="font-size: 40px"></i>
+      </p>
+      <div>
+        Current Weather: {{cityWeather}}
+      </div>
+      <div class="temperature">
+        <span>Temperature</span>
+        <span>{{cityTemperature}}&#8451;</span>
+        <span>&#8595;{{cityMinimumTemperature}}&#8451;</span>
+        <span>&#8593;{{cityMaximumTemperature}}&#8451;</span>
+      </div>
+      <div>
+        Humidity: {{cityHumidity}}&#37;
+      </div>
+      <div>
+        Wind Speed: {{cityWind}} Km/h
+      </div>
+    </div>
+  </a>
+</div>

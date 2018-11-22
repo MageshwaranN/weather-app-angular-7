@@ -1,0 +1,23 @@
+.card {
+  box-shadow: 0 4px 8px 0 #f2f4f533;
+  margin: 10px;
+ }
+
+ .card p {
+   font-weight: bolder;
+ }
+
+ .container {
+  display: inline-flex;
+ }
+
+ .blocks {
+   box-shadow: 0 4px 8px 0 #60f35b33;
+   margin-right: 5px;
+   padding: 10px;
+   text-align: center;
+ }
+
+ .blocks div {
+   padding: 5px
+ }

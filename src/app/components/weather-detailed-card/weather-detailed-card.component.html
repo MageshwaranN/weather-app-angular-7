@@ -1,0 +1,25 @@
+<div>
+  <p>
+    Weather Forecast for next 5 days in {{city}}
+  </p>
+  <div *ngFor="let day of daysWeather">
+    <div class="card">
+      <p>
+        Date: {{day.date}}
+      </p>
+      <div class="container">
+        <div class="blocks" *ngFor="let climate of day.climate">
+          <div>
+            {{climate.temperature}}&#8451;
+          </div>
+          <div>
+            {{climate.state}}
+          </div>
+          <div>
+            {{climate.hours}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
