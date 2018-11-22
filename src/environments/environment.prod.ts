@@ -3,7 +3,7 @@ export const environment = {
 };
 
 export const apiDetails = {
-  id: '3d8b309701a13f65b660fa2c64cdc517',
+  id: '',
   url: 'https://api.openweathermap.org/data/2.5'
 };
 
